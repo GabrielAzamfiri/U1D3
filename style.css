@@ -3,26 +3,23 @@ body{
     font-weight: 500;
     font-style: normal; 
     font-size: 0.9em;
+    text-align: center;
+
 }
 main, footer{
     width: 45rem;
     margin: auto;
+    text-align: left;
 }
 #logo{
     width: 15rem;
+    margin: 1rem 0;
+
 }
 
-#logo{
-    display: flex;
-    margin: auto;
-}
 .description-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(250, 250, 241);
-    height: 4em;
-    margin-top: 2em;
+    padding: 1rem;
     border-top: 1px solid rgb(244, 208, 3); 
 }
 h1{
@@ -35,7 +32,8 @@ main{
     width: 45rem;
 }
 
-.img-focaccia a img{
+.img-focaccia video{
+    width: 100%;
     border-radius: 10px;
 }
 .img-focaccia p{
