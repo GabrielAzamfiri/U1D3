@@ -12,7 +12,7 @@ main, footer{
     width: 15rem;
 }
 
-header img{
+#logo{
     display: flex;
     margin: auto;
 }
