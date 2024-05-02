@@ -1,0 +1,62 @@
+body{
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-style: normal; 
+    font-size: 0.9em;
+}
+main, footer{
+    width: 45rem;
+    margin: auto;
+}
+#logo{
+    width: 15rem;
+}
+
+header img{
+    display: flex;
+    margin: auto;
+}
+.description-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 241);
+    height: 4em;
+    margin-top: 2em;
+    border-top: 1px solid rgb(244, 208, 3); 
+}
+h1{
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    width: 45rem;
+}
+
+.img-focaccia a img{
+    border-radius: 10px;
+}
+.img-focaccia p{
+    color:gray;
+    text-align: center;
+
+}
+.feature{
+    border-left:1px solid rgb(244, 208, 3); 
+    padding-left: 1em ;
+}
+.feature p{
+    margin: 0 auto;
+    color: rgb(233, 159, 22);
+    
+}
+
+b{
+    text-transform: uppercase;
+}
+ul li{
+    padding-bottom: 1.5em;
+}
+
+
